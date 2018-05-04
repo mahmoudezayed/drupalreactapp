@@ -1,0 +1,90 @@
+add screen entities:
+  title: 'Create new Screen entities'
+
+administer screen entities:
+  title: 'Administer Screen entities'
+  description: 'Allow to access the administration form to configure Screen entities.'
+  restrict access: true
+
+delete screen entities:
+  title: 'Delete Screen entities'
+
+edit screen entities:
+  title: 'Edit Screen entities'
+
+view published screen entities:
+  title: 'View published Screen entities'
+
+view unpublished screen entities:
+  title: 'View unpublished Screen entities'
+
+view all screen revisions:
+  title: 'View all Screen revisions'
+
+revert all screen revisions:
+  title: 'Revert all Screen revisions'
+  description: 'Role requires permission <em>view Screen revisions</em> and <em>edit rights</em> for screen entities in question or <em>administer screen entities</em>.'
+
+delete all screen revisions:
+  title: 'Delete all revisions'
+  description: 'Role requires permission to <em>view Screen revisions</em> and <em>delete rights</em> for screen entities in question or <em>administer screen entities</em>.'
+add app strucutre entities:
+  title: 'Create new App strucutre entities'
+
+administer app strucutre entities:
+  title: 'Administer App strucutre entities'
+  description: 'Allow to access the administration form to configure App strucutre entities.'
+  restrict access: true
+
+delete app strucutre entities:
+  title: 'Delete App strucutre entities'
+
+edit app strucutre entities:
+  title: 'Edit App strucutre entities'
+
+view published app strucutre entities:
+  title: 'View published App strucutre entities'
+
+view unpublished app strucutre entities:
+  title: 'View unpublished App strucutre entities'
+
+view all app strucutre revisions:
+  title: 'View all App strucutre revisions'
+
+revert all app strucutre revisions:
+  title: 'Revert all App strucutre revisions'
+  description: 'Role requires permission <em>view App strucutre revisions</em> and <em>edit rights</em> for app strucutre entities in question or <em>administer app strucutre entities</em>.'
+
+delete all app strucutre revisions:
+  title: 'Delete all revisions'
+  description: 'Role requires permission to <em>view App strucutre revisions</em> and <em>delete rights</em> for app strucutre entities in question or <em>administer app strucutre entities</em>.'
+add app structure entities:
+  title: 'Create new App structure entities'
+
+administer app structure entities:
+  title: 'Administer App structure entities'
+  description: 'Allow to access the administration form to configure App structure entities.'
+  restrict access: true
+
+delete app structure entities:
+  title: 'Delete App structure entities'
+
+edit app structure entities:
+  title: 'Edit App structure entities'
+
+view published app structure entities:
+  title: 'View published App structure entities'
+
+view unpublished app structure entities:
+  title: 'View unpublished App structure entities'
+
+view all app structure revisions:
+  title: 'View all App structure revisions'
+
+revert all app structure revisions:
+  title: 'Revert all App structure revisions'
+  description: 'Role requires permission <em>view App structure revisions</em> and <em>edit rights</em> for app structure entities in question or <em>administer app structure entities</em>.'
+
+delete all app structure revisions:
+  title: 'Delete all revisions'
+  description: 'Role requires permission to <em>view App structure revisions</em> and <em>delete rights</em> for app structure entities in question or <em>administer app structure entities</em>.'

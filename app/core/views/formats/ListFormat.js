@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { List, ListItem } from 'native-base';
 // App config
-import Config from 'app/config';
+import Config from '../../../src/config/config';
 // View modes
-import { ListThumbnail } from 'app/core/views/view_modes/ListThumbnail';
+import { ListThumbnail } from '../../../core/views/view_modes/ListThumbnail';
 
 export class ListFormat extends Component {
   render() {

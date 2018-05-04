@@ -1,0 +1,24 @@
+uuid: f520077b-5dc8-4b70-9063-c5a8afcb1371
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - react_app
+id: app_structure.field_view_mode
+field_name: field_view_mode
+entity_type: app_structure
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: list
+      label: list
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

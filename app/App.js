@@ -1,16 +1,16 @@
 import React, { Component } from "react";
-import { View } from "react-native";
-import { Container, Content, Picker, Button, Text } from "native-base";
 import Expo from "expo";
+import DrawerNav from "./src/DrawerNav.js";
 
-import HomeScreen from "./src/HomeScreen/index.js";
-export default class AwesomeApp extends Component {
+export default class App extends Component {
+  
   constructor() {
     super();
     this.state = {
       isReady: false
     };
   }
+
   async componentWillMount() {
     await Expo.Font.loadAsync({
       Roboto: require("native-base/Fonts/Roboto.ttf"),
@@ -19,10 +19,13 @@ export default class AwesomeApp extends Component {
     });
     this.setState({ isReady: true });
   }
+
+
   render() {
     if (!this.state.isReady) {
       return <Expo.AppLoading />;
     }
-    return <HomeScreen />;
+    return <DrawerNav />;
   }
+
 }

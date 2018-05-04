@@ -1,0 +1,12 @@
+react_app.app_structure_type.*:
+  type: config_entity
+  label: 'App structure type config'
+  mapping:
+    id:
+      type: string
+      label: 'ID'
+    label:
+      type: label
+      label: 'Label'
+    uuid:
+      type: string

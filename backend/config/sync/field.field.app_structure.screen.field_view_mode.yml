@@ -1,0 +1,21 @@
+uuid: 0632d9fb-0f00-4d3b-ac28-4f18291d23ce
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.app_structure.field_view_mode
+    - react_app.app_structure_type.screen
+  module:
+    - options
+id: app_structure.screen.field_view_mode
+field_name: field_view_mode
+entity_type: app_structure
+bundle: screen
+label: 'View Mode'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,19 @@
+uuid: b19fba0f-6447-4a8c-9e82-41565c17215a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.app_structure.field_ser
+    - react_app.app_structure_type.screen
+id: app_structure.screen.field_ser
+field_name: field_ser
+entity_type: app_structure
+bundle: screen
+label: 'Service Url'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,22 @@
+# App structure routing definition
+
+entity.app_structure.canonical:
+  route_name: entity.app_structure.canonical
+  base_route: entity.app_structure.canonical
+  title: 'View'
+
+entity.app_structure.edit_form:
+  route_name: entity.app_structure.edit_form
+  base_route: entity.app_structure.canonical
+  title: 'Edit'
+
+entity.app_structure.version_history:
+  route_name: entity.app_structure.version_history
+  base_route: entity.app_structure.canonical
+  title: 'Revisions'
+
+entity.app_structure.delete_form:
+  route_name:  entity.app_structure.delete_form
+  base_route:  entity.app_structure.canonical
+  title: Delete
+  weight: 10

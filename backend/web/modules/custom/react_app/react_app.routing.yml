@@ -1,0 +1,9 @@
+react_app.default_form:
+  path: '/admin/config/react_app/default'
+  defaults:
+    _form: '\Drupal\react_app\Form\DefaultForm'
+    _title: 'DefaultForm'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE

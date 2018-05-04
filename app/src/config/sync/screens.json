@@ -1,0 +1,1 @@
+[{"name":"Home screen","field_view_mode":"list","service_url":"/nodes?_format=json"},{"name":"Nodes","field_view_mode":"list","service_url":"/nodes?_format=json"},{"name":"News","field_view_mode":"list","service_url":"/news?_format=json"}]

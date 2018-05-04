@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { ListItem, Thumbnail, Body, Text } from 'native-base';
+
 export class ListThumbnail extends Component {
   render() {
     return (

@@ -1,0 +1,20 @@
+uuid: 0179a297-d004-4989-ae6b-adf709d2941a
+langcode: en
+status: false
+dependencies:
+  module:
+    - hal
+    - react_app
+    - serialization
+    - user
+id: entity.app_structure
+plugin_id: 'entity:app_structure'
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - hal_json
+    - json
+  authentication:
+    - cookie

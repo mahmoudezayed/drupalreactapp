@@ -1,0 +1,58 @@
+<?php
+
+/**
+ * @file
+ * Contains react_app.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function react_app_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the react_app module.
+    case 'help.page.react_app':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Generate cross platform mobile apps by react native.') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function react_app_theme() {
+  $theme = [];
+  $theme['app_structure'] = [
+    'render element' => 'elements',
+    'file' => 'app_structure.page.inc',
+    'template' => 'app_structure',
+  ];
+  $theme['app_structure_content_add_list'] = [
+    'render element' => 'content',
+    'variables' => ['content' => NULL],
+    'file' => 'app_structure.page.inc',
+  ];
+  return $theme;
+}
+
+/**
+* Implements hook_theme_suggestions_HOOK().
+*/
+function react_app_theme_suggestions_app_structure(array $variables) {
+  $suggestions = [];
+  $entity = $variables['elements']['#app_structure'];
+  $sanitized_view_mode = strtr($variables['elements']['#view_mode'], '.', '_');
+
+  $suggestions[] = 'app_structure__' . $sanitized_view_mode;
+  $suggestions[] = 'app_structure__' . $entity->bundle();
+  $suggestions[] = 'app_structure__' . $entity->bundle() . '__' . $sanitized_view_mode;
+  $suggestions[] = 'app_structure__' . $entity->id();
+  $suggestions[] = 'app_structure__' . $entity->id() . '__' . $sanitized_view_mode;
+  return $suggestions;
+}

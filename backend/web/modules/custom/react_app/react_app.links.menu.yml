@@ -1,0 +1,23 @@
+react_app.default_form:
+  title: 'React Apps'
+  route_name: react_app.default_form
+  description: 'React Apps configs'
+  parent: system.admin_config_system
+  weight: 99
+
+# App structure menu items definition
+entity.app_structure.collection:
+  title: 'App structure list'
+  route_name: entity.app_structure.collection
+  description: 'List App structure entities'
+  parent: system.admin_structure
+  weight: 100
+
+
+# App structure type menu items definition
+entity.app_structure_type.collection:
+  title: 'App structure type'
+  route_name: entity.app_structure_type.collection
+  description: 'List App structure type (bundles)'
+  parent: system.admin_structure
+  weight: 99

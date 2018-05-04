@@ -1,0 +1,22 @@
+{#
+/**
+ * @file app_structure.html.twig
+ * Default theme implementation to present App structure data.
+ *
+ * This template is used when viewing App structure pages.
+ *
+ *
+ * Available variables:
+ * - content: A list of content items. Use 'content' to print all content, or
+ * - attributes: HTML attributes for the container element.
+ *
+ * @see template_preprocess_app_structure()
+ *
+ * @ingroup themeable
+ */
+#}
+<div{{ attributes.addClass('app_structure') }}>
+  {% if content %}
+    {{- content -}}
+  {% endif %}
+</div>

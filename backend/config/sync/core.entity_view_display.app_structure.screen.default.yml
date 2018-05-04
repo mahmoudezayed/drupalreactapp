@@ -1,0 +1,33 @@
+uuid: a0ca3965-6614-434f-82b3-c2179d04848c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.app_structure.screen.field_ser
+    - field.field.app_structure.screen.field_view_mode
+    - react_app.app_structure_type.screen
+  module:
+    - options
+id: app_structure.screen.default
+targetEntityType: app_structure
+bundle: screen
+mode: default
+content:
+  field_ser:
+    weight: 2
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_view_mode:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+hidden:
+  name: true
+  user_id: true

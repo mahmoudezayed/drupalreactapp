@@ -1,0 +1,21 @@
+uuid: eeff1669-1d0f-4462-a9a9-dbbbfb101c0c
+langcode: en
+status: true
+dependencies:
+  module:
+    - react_app
+id: app_structure.field_ser
+field_name: field_ser
+entity_type: app_structure
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

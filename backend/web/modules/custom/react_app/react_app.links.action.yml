@@ -1,0 +1,16 @@
+entity.app_strucutre.add_form:
+  route_name: entity.app_strucutre.add_form
+  title: 'Add App strucutre'
+  appears_on:
+    - entity.app_strucutre.collection
+entity.app_structure.add_form:
+  route_name: entity.app_structure.add_page
+  title: 'Add App structure'
+  appears_on:
+    - entity.app_structure.collection
+entity.app_structure_type.add_form:
+  route_name: entity.app_structure_type.add_form
+  title: 'Add App structure type'
+  appears_on:
+    - entity.app_structure_type.collection
+

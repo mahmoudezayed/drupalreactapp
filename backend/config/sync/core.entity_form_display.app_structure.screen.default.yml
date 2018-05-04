@@ -1,0 +1,45 @@
+uuid: 07804026-6e11-4c2e-ad29-1ce9c8a76e08
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.app_structure.screen.field_ser
+    - field.field.app_structure.screen.field_view_mode
+    - react_app.app_structure_type.screen
+id: app_structure.screen.default
+targetEntityType: app_structure
+bundle: screen
+mode: default
+content:
+  field_ser:
+    weight: 28
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_view_mode:
+    weight: 27
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  name:
+    type: string_textfield
+    weight: -4
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  user_id:
+    type: entity_reference_autocomplete
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    region: content
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,20 @@
+uuid: abe64f76-ecf5-4f76-ae82-df19cb76cfc3
+langcode: en
+status: true
+dependencies:
+  module:
+    - hal
+    - serialization
+    - system
+    - user
+id: entity.menu
+plugin_id: 'entity:menu'
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - hal_json
+    - json
+  authentication:
+    - cookie
